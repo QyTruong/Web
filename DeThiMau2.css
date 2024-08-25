@@ -1,0 +1,81 @@
+
+
+.banner {
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    line-height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: yellow;
+    margin-left: 20px;
+}
+
+h2 {
+    color: white;
+    text-shadow: 2px 1px black;
+    margin-right: 20px;
+}
+
+.nav {
+    height: 50px;
+    background-color: rgb(27, 197, 103);
+    text-align: center;
+    line-height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li {
+    display: inline-block;
+    background-color: rgb(21, 166, 43);
+    width: 120px;
+}
+
+select {
+    background-color: green;
+    height: 50px;
+    width: 120px;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: 700px;
+}
+
+.left {
+    width: 40%;
+    background-color: rgb(123, 213, 213);
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+fieldset {
+    height: 285px;
+    line-height: 2;
+    font-weight: 600;
+    border: 2px solid black;
+}
+
+.right {
+    width: 60%;
+    background-color: gray;
+    margin-top: 3px;
+} 
+
+.footer {
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+    line-height: 50px;
+    color: yellow;
+}
