@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../CSS/DeThiMau2.css">
+       
+        <style>
+            canvas {
+                
+                /* margin-top: 5px; */
+                border: 2px solid black;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="banner">
+                <h1>BÀI THI ỨNG DỤNG WEB</h1>
+                <h2>MSSV: 2351010227-Họ tên: Phạm Quý Trưởng</h2>
+            </div>
+
+            <div class="nav">
+                <div class="menu">
+                    <li>
+                        <a href="">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <select name="" id="select">
+                            <option value="dung">Dừng</option>
+                            <option value="doc">Dọc</option>
+                            <option value="ngang">Ngang</option>
+                        </select>
+                    </li>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="left">
+                    <fieldset>
+                        <legend>Chọn thao tác</legend>
+                        <p>Đổi màu tiêu đề:
+                            <input type="color" id="color">
+                        </p>
+                        <p>
+                            Hình vuông: <input type="radio" value="1" name="shape">
+                            Hình tròn: <input type="radio" value="0" name="shape" checked>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Xử lý mảng</legend>
+                        Số phần tử: <input type="text" value="10" size=2>
+                        Số nhỏ nhất: <input type="text" value="0" size=2>
+                        Số lớn nhất: <input type="text" value="100" size=2>
+                        <br> <button type="button">Tạo mảng - Sắp xếp</button>
+                        <br>Mảng ban đầu
+                        <br> <input type="text" id="start" size=60>
+                        <br>Mảng sắp xếp lẻ giảm chẵn tăng
+                        <br> <input type="text" id="end" size=60>
+                    </fieldset>
+                </div>
+                <div class="right"><canvas id="game" height="695" width="1125"></canvas></div>
+                <script src="../Javascript/DeThiMau2.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            </div>
+            <div class="footer">
+                Copyright 2023
+            </div>
+            
+        </div>    
+        
+    </body>
+    
+</html>
